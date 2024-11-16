@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Specify ECMAScript target version
+    "lib": [
+      "dom",
+      "es2015"
+    ], // Include the required libraries
+    "jsx": "react-jsx", // Ensures JSX syntax is compiled correctly
+    "module": "esnext", // Use ECMAScript module system
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "strict": true, // Enable strict type-checking options
+    "esModuleInterop": true, // Allow default imports from non-ESM modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file casing
+    "noImplicitAny": true, // Disallow implicit 'any' type
+    "resolveJsonModule": true, // Allow importing JSON modules
+    "isolatedModules": true, // Ensure each file can be transpiled independently
+    "allowJs": true, // Allow JavaScript files to be included in the project
+    "downlevelIteration": true, // Ensure full support for ES6+ iteration
+    "baseUrl": "./src", // Set base URL for module resolution
+    "paths": {
+      "@components/*": [
+        "src/components/*"
+      ], // Example alias setup (you can add more)
+      "@utils/*": [
+        "src/utils/*"
+      ] // Example alias setup for utils
+    }
+  },
+  "include": [
+    "src/**/*" // Include all files inside the src folder
+  ],
+  "exclude": [
+    "node_modules", // Exclude node_modules
+    "build" // Exclude build folder
+  ]
+}
