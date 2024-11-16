@@ -1,0 +1,32 @@
+
+# Node modules
+client/node_modules/
+server/node_modules/
+node_modules/
+
+# Package lock files
+client/package-lock.json
+server/package-lock.json
+package-lock.json
+
+# Logs
+client/logs
+server/logs
+logs
+*.log
+
+# Dist/Build folders
+client/dist/
+server/dist/
+client/build/
+server/build/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
